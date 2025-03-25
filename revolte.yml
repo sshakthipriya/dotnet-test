@@ -1,0 +1,17 @@
+revolte:
+  version: "1.0"
+  project: "instagram"
+  appName: "payment"
+  env:
+    preview:
+      services:
+        rid_1:
+          name: "payment-service"
+          type: "WEB_APP"
+          entryPoint: "index.js"
+          properties:
+            indexPage: "index.html"
+            errorPage: "error.html"
+            variables:
+              VITE_API_URL: "test"
+              VITE_SECRET_KEY: "#{secretKey}"

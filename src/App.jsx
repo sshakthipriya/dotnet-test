@@ -17,8 +17,8 @@ function App() {
         </a>
       </div>
       <h1>
-        Revolte Testing app Variable value: {import.meta.env.VITE_API_URL}{' '}
-        Secret Value: {import.meta.env.VITE_SECRET_KEY} Testing
+        Revolte Testing app Variable value: ere{' '}
+        Secret Value:Testing
       </h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>

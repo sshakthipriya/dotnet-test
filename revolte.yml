@@ -4,6 +4,7 @@ revolte:
   appName: "donation"
   env:
     preview:
+      branch: dev
       services:
         rid_1:
           name: "payment-service"

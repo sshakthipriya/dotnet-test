@@ -1,19 +1,18 @@
 revolte:
-  version: "1.0"
-  project: "instagram"
-  appName: "donation"
+  version: '1.0'
+  project: instagram
+  appName: donations
   env:
     preview:
       branch: dev
       services:
         rid_1:
-          name: "payment-service"
-          type: "WEB_APP"
-          entryPoint: "index.js"
+          name: payment-service
+          type: WEB_APP
+          entryPoint: index.js
           properties:
-            indexPage: "index.html"
-            errorPage: "error.html"
+            indexPage: index.html
+            errorPage: error.html
             variables:
-              VITE_API_URL: "test"
-              VITE_SECRET_KEY: "secret_key"
-
+              VITE_API_URL: test
+              VITE_SECRET_KEY: secret_key

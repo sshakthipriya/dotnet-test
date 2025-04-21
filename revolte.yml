@@ -3,7 +3,7 @@ revolte:
   project: instagram
   appName: donations
   env:
-    preview:
+    rip:
       branch: dev
       services:
         rid_1:

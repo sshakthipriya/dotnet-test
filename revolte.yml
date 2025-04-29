@@ -1,7 +1,7 @@
 revolte:
   version: '1.0'
   project: instagram
-  appName: donations
+  appName: donation
   env:
     preview:
       branch: dev

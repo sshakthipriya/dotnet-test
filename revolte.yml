@@ -15,4 +15,4 @@ revolte:
             errorPage: error.html
             variables:
               VITE_API_URL: test
-              VITE_SECRET_KEY: secret_key
+              VITE_SECRET_KEY: "#{secret_key}"

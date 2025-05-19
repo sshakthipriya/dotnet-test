@@ -3,8 +3,8 @@ revolte:
   project: optum
   appName: message-service-fe
   env:
-    preview:
-      branch: dev
+    qa:
+      branch: qa
       services:
         rid_1:
           name: payment-service

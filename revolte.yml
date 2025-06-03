@@ -5,7 +5,7 @@ revolte:
   env:
     production:
       branch: qa
-      domain: 'react.poddleops.com'
+      domain: react.poddleops.com
       services:
         rid_1:
           name: payment-service
